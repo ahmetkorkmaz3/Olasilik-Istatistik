@@ -7,7 +7,6 @@ def faktoriyel(sayi):
 n = int(input("n sayısını giriniz:"))
 r = int(input("r sayısını giriniz:"))
 
-
 kombinasyon = faktoriyel(n) / (faktoriyel(r) * faktoriyel(n - r))
 
 print("Kombinasyon sonucu = {}".format(kombinasyon))
